@@ -1,4 +1,4 @@
-package com.kcs.example;
+package com.kcs.example.first;
 
 public class FirstEx {
     public static void main(String[] args){

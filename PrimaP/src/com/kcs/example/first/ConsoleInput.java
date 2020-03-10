@@ -1,4 +1,4 @@
-package com.kcs.example;
+package com.kcs.example.first;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
