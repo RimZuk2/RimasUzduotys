@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c639fae0-8e98-42cb-ae15-38a833426d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/second/MatematiniaiDarbai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kcs/example/second/MatematiniaiDarbai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kcs/example/second/MatematiniaiDarbai.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
       <workItem from="1583850381258" duration="287000" />
       <workItem from="1583857604653" duration="1926000" />
       <workItem from="1583860933333" duration="679000" />
-      <workItem from="1583861644115" duration="4885000" />
+      <workItem from="1583861644115" duration="5365000" />
     </task>
     <task id="LOCAL−00001" summary="Komentaras">
       <created>1583861696941</created>
@@ -139,7 +139,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1583863707079</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Be catch bendro">
+      <created>1583866627520</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1583866627520</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +155,8 @@
     <MESSAGE value="Komentaras" />
     <MESSAGE value="Polindromas" />
     <MESSAGE value="Iveda vartotojas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iveda vartotojas" />
+    <MESSAGE value="Be catch bendro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Be catch bendro" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583775952386">
@@ -160,26 +167,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1583780125840" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1583863718293">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1583866625970">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583863718293" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583866108577">
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583866625970" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583867016858">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583866108577" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583866108577">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583867016858" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583867016857">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583866108577" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583866108576">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583867016857" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583867016857">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583866108576" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583866108577">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583867016857" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583867016857">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583866108577" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583867016857" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1583832044768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -196,10 +203,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583832044768" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1583863260986">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1583866630488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583863260986" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583866630488" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1583831467089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

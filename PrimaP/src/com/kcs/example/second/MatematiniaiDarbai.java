@@ -10,8 +10,7 @@ public class MatematiniaiDarbai {
         while (select != 0) {
             System.out.println("Pasirinkite kokios figuros plota skaiciuopsite:");
             System.out.println("1. Statusis trikampis\n2. Staciakampis\n3. Kvadratas\n4. Apskritimas\n0. Pabaiga");
-            try {
-                select = sc.nextInt();
+                select = getCorrect(sc);
                 switch (select) {
                     case 1:
                         System.out.println("Status trikampis");
@@ -33,20 +32,18 @@ public class MatematiniaiDarbai {
                         System.out.println("end");
                         break;
                 }
-            } catch (InputMismatchException e) {
-                System.out.println("Blogas pasirinkimas");
-                sc.nextLine();
+
             }
         }
 
-    }
+
 
     private static void statusisTrikampis(Scanner sc) {
 
         System.out.println("Ivesk sk1: ");
-        double pirmassk = sc.nextDouble();
+        double pirmassk = getCorrectDouble(sc);
         System.out.println("Ivesk sk2: ");
-        double antrassk = sc.nextDouble();
+        double antrassk = getCorrect(sc);
         double plotas = (pirmassk * antrassk) / 2;
         System.out.println("Trikampio plotas:" + plotas);
     }
@@ -55,6 +52,18 @@ public class MatematiniaiDarbai {
         while (true) {
             try {
                 int result = scanner.nextInt();
+                return result;
+            } catch (InputMismatchException e) {
+                System.out.println("Blogai ivestas skaicius");
+                scanner.nextLine();
+            }
+        }
+    }
+    private static double getCorrectDouble(Scanner scanner) {
+        while (true) {
+            try {
+                double result = scanner.nextInt();
+                return result;
             } catch (InputMismatchException e) {
                 System.out.println("Blogai ivestas skaicius");
                 scanner.nextLine();
