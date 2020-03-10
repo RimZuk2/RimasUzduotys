@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c639fae0-8e98-42cb-ae15-38a833426d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/second/MatematiniaiDarbai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrimaPKovas/com/kcs/example/ConsoleInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrimaPKovas/com/kcs/example/FirstEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrimaPKovas/com/kcs/example/Trecias.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrimaPKovas/com/kcs/example/VardasSimboliai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kcs/example/second/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kcs/example/second/SecondTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SecondTask">
+  <component name="RunManager" selected="Application.MatematiniaiDarbai">
     <configuration name="ConsoleInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kcs.example.first.ConsoleInput" />
       <module name="PrimaPKovas" />
@@ -46,12 +42,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.first.FirstEx" />
+    <configuration name="MatematiniaiDarbai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.second.MatematiniaiDarbai" />
       <module name="PrimaPKovas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kcs.example.first.*" />
+          <option name="PATTERN" value="com.kcs.example.second.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatematiniaiDarbai" />
         <item itemvalue="Application.SecondTask" />
         <item itemvalue="Application.Trecias" />
         <item itemvalue="Application.ConsoleInput" />
         <item itemvalue="Application.VardasSimboliai" />
-        <item itemvalue="Application.FirstEx" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +113,7 @@
       <workItem from="1583850381258" duration="287000" />
       <workItem from="1583857604653" duration="1926000" />
       <workItem from="1583860933333" duration="679000" />
-      <workItem from="1583861644115" duration="1852000" />
+      <workItem from="1583861644115" duration="4885000" />
     </task>
     <task id="LOCAL−00001" summary="Komentaras">
       <created>1583861696941</created>
@@ -131,7 +127,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1583863258317</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Iveda vartotojas">
+      <created>1583863675234</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1583863675234</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Iveda vartotojas">
+      <created>1583863707079</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1583863707079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +148,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Komentaras" />
     <MESSAGE value="Polindromas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polindromas" />
+    <MESSAGE value="Iveda vartotojas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iveda vartotojas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583775952386">
@@ -151,26 +160,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1583780125840" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1583863673292">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1583863718293">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583863673292" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583863639276">
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583863718293" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583866108577">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583863639276" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583863639276">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583866108577" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583866108577">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583863639276" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583863639276">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583866108577" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583866108576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583863639276" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583863639276">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583866108576" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583866108577">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583863639276" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583866108577" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1583832044768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
