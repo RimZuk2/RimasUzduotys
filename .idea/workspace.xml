@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8ec060b-cb0e-4a4f-ab6b-08e5fe1d6dd3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Ytx2VLnsOkZ3uDWwjq4qDy0cbf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ec060b-cb0e-4a4f-ab6b-08e5fe1d6dd3" name="Default Changelist" comment="" />
+      <created>1583775485277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583775485277</updated>
+      <workItem from="1583775491829" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="420" y="85" key="FileChooserDialogImpl" timestamp="1583775533097">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="420" y="85" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583775533097" />
+    <state x="348" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1583775490600">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583775490600" />
+    <state x="90" y="0" key="new project wizard" timestamp="1583775541237">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="90" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583775541237" />
+  </component>
+</project>
