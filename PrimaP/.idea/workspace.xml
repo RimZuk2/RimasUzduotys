@@ -4,6 +4,7 @@
     <list default="true" id="c639fae0-8e98-42cb-ae15-38a833426d52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kcs/example/second/KMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kcs/example/second/KMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kcs/example/second/MatematiniaiDarbai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kcs/example/second/MatematiniaiDarbai.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +35,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MatematiniaiDarbai">
+  <component name="RunManager" selected="Application.KMI">
     <configuration name="ConsoleInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kcs.example.first.ConsoleInput" />
       <module name="PrimaPKovas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.second.KMI" />
+      <module name="PrimaPKovas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kcs.example.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,20 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VardasSimboliai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.first.VardasSimboliai" />
-      <module name="PrimaPKovas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMI" />
         <item itemvalue="Application.MatematiniaiDarbai" />
         <item itemvalue="Application.SecondTask" />
         <item itemvalue="Application.Trecias" />
         <item itemvalue="Application.ConsoleInput" />
-        <item itemvalue="Application.VardasSimboliai" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +122,10 @@
       <workItem from="1583860933333" duration="679000" />
       <workItem from="1583861644115" duration="6632000" />
       <workItem from="1583914836478" duration="187000" />
-      <workItem from="1584018880303" duration="785000" />
+      <workItem from="1584018880303" duration="844000" />
+      <workItem from="1584019921926" duration="2689000" />
+      <workItem from="1584022921412" duration="172000" />
+      <workItem from="1584030521142" duration="336000" />
     </task>
     <task id="LOCAL−00001" summary="Komentaras">
       <created>1583861696941</created>
@@ -159,7 +169,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1583867905848</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="KMI v1">
+      <created>1584019707492</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1584019707492</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +187,8 @@
     <MESSAGE value="Iveda vartotojas" />
     <MESSAGE value="Be catch bendro" />
     <MESSAGE value="Try Catch Bendras 1. trikampis geras." />
-    <option name="LAST_COMMIT_MESSAGE" value="Try Catch Bendras 1. trikampis geras." />
+    <MESSAGE value="KMI v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="KMI v1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583775952386">
@@ -182,26 +199,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1583780125840" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1584019686553">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1584019705898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584019686553" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1583868338907">
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584019705898" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584022638314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583868338907" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1583868338905">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584022638314" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584022638314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583868338905" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1583868338905">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584022638314" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584022638314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583868338905" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1583868338907">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584022638314" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584022638314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583868338907" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584022638314" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1583832044768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -218,10 +235,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583832044768" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1583867912478">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1584019712492">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583867912478" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584019712492" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1583831467089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

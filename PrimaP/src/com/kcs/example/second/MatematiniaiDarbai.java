@@ -70,10 +70,10 @@ public class MatematiniaiDarbai {
 
     private static void apskritimoPlotas(Scanner sc) {
 
-        System.out.println("Krastine: ");
+        System.out.println("Spindulys: ");
         double pirmassk = getCorrectDouble(sc);
         double plotas = Math.pow(pirmassk, 2) * 3.14;
-        System.out.println("kvadrato plotas:" + plotas);
+        System.out.println("Apskritimo plotas:" + plotas);
     }
 
     private static int getCorrect(Scanner scanner) {
