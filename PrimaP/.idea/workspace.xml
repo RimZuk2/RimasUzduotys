@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c639fae0-8e98-42cb-ae15-38a833426d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/third/ReaderFromFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kcs/example/cars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kcs/example/third/ReaderFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kcs/example/third/ReaderFromFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
       <recent name="C:\Users\37062\Desktop\java_works_ 20\PrimaP\src\com\kcs\example\third" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PenktaUzduotis">
+  <component name="RunManager" selected="Application.ReaderFromFile">
     <configuration name="KMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kcs.example.second.KMI" />
       <module name="PrimaPKovas" />
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.second.SecondTask" />
+    <configuration name="ReaderFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.third.ReaderFromFile" />
       <module name="PrimaPKovas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kcs.example.second.*" />
+          <option name="PATTERN" value="com.kcs.example.third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReaderFromFile" />
         <item itemvalue="Application.PenktaUzduotis" />
         <item itemvalue="Application.Skaiciuotuvas" />
         <item itemvalue="Application.KMI" />
         <item itemvalue="Application.MatematiniaiDarbai" />
-        <item itemvalue="Application.SecondTask" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,7 @@
       <workItem from="1584030521142" duration="9854000" />
       <workItem from="1584098840744" duration="2614000" />
       <workItem from="1584119006126" duration="749000" />
-      <workItem from="1584195897405" duration="341000" />
+      <workItem from="1584195897405" duration="1285000" />
     </task>
     <task id="LOCAL−00001" summary="Komentaras">
       <created>1583861696941</created>
@@ -203,7 +202,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1584099800422</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Penkta Uzduotis">
+      <created>1584196261314</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1584196261314</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,10 +237,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1583780125840" />
-    <state x="365" y="0" key="CommitChangelistDialog2" timestamp="1584099798662">
+    <state x="365" y="0" key="CommitChangelistDialog2" timestamp="1584196257332">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="365" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584099798662" />
+    <state x="365" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584196257332" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584103091576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -268,10 +273,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583832044768" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1584099805417">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1584196266427">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584099805417" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584196266427" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1583831467089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
