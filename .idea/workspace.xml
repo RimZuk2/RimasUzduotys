@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8ec060b-cb0e-4a4f-ab6b-08e5fe1d6dd3" name="Default Changelist" comment="" />
+    <list default="true" id="d8ec060b-cb0e-4a4f-ab6b-08e5fe1d6dd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PrimaP/src/com/kcs/example/testas1/Galutinis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimaP/src/com/kcs/example/testas1/TestasVienas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimaP/src/com/kcs/example/testas1/TestasVienas2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimaP/src/com/kcs/example/testas1/TestasVienas3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimaP/src/com/kcs/example/testas1/TestasVienas4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimaP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PrimaP/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ytx2VLnsOkZ3uDWwjq4qDy0cbf" />
   <component name="ProjectViewState">
@@ -17,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaFX 1 dalis" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583775485277</updated>
       <workItem from="1583775491829" duration="61000" />
+      <workItem from="1584559279709" duration="15000" />
     </task>
     <servers />
   </component>
@@ -36,10 +48,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="420" y="85" key="FileChooserDialogImpl" timestamp="1583775533097">
+    <state x="420" y="85" key="FileChooserDialogImpl" timestamp="1584559293124">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="420" y="85" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583775533097" />
+    <state x="420" y="85" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584559293124" />
     <state x="348" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1583775490600">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

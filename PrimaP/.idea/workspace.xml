@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c639fae0-8e98-42cb-ae15-38a833426d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encrypted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laiskas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/kolekcijos/Converter.java" afterDir="false" />
+    <list default="true" id="c639fae0-8e98-42cb-ae15-38a833426d52" name="Default Changelist" comment="Code Converter">
+      <change afterPath="$PROJECT_DIR$/../FX/FX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/src/sample/Pirmas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/Galutinis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +49,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,19 +60,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pirma_paskaita_03_09" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kcs.example.testas1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\37062\Desktop\java_works_ 20\PrimaP\src" />
       <recent name="C:\Users\37062\Desktop\java_works_ 20\PrimaP" />
       <recent name="C:\Users\37062\Desktop\java_works_ 20\PrimaP\src\com\kcs\example\third" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Converter">
-    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.kolekcijos.Converter" />
+  <component name="RunManager" selected="Application.Galutinis">
+    <configuration name="Galutinis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.testas1.Galutinis" />
       <module name="PrimaPKovas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kcs.example.kolekcijos.*" />
+          <option name="PATTERN" value="com.kcs.example.testas1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.third.FileRead" />
+    <configuration name="Skaiciuotuvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.third.Skaiciuotuvas" />
       <module name="PrimaPKovas" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.third.FileWrite" />
+    <configuration name="TestasVienas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.testas1.TestasVienas" />
       <module name="PrimaPKovas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kcs.example.third.*" />
+          <option name="PATTERN" value="com.kcs.example.testas1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PenktaUzduotis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.third.PenktaUzduotis" />
+    <configuration name="TestasVienas2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.testas1.TestasVienas2" />
       <module name="PrimaPKovas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kcs.example.third.*" />
+          <option name="PATTERN" value="com.kcs.example.testas1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pirmas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kcs.example.kolekcijos.Pirmas" />
+    <configuration name="TestasVienas3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kcs.example.testas1.TestasVienas3" />
       <module name="PrimaPKovas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kcs.example.kolekcijos.*" />
+          <option name="PATTERN" value="com.kcs.example.testas1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Converter" />
-        <item itemvalue="Application.PenktaUzduotis" />
-        <item itemvalue="Application.Pirmas" />
-        <item itemvalue="Application.FileWrite" />
-        <item itemvalue="Application.FileRead" />
+        <item itemvalue="Application.Galutinis" />
+        <item itemvalue="Application.Skaiciuotuvas" />
+        <item itemvalue="Application.TestasVienas3" />
+        <item itemvalue="Application.TestasVienas" />
+        <item itemvalue="Application.TestasVienas2" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +174,17 @@
       <workItem from="1584207242432" duration="2643000" />
       <workItem from="1584209926996" duration="44000" />
       <workItem from="1584283424428" duration="72000" />
-      <workItem from="1584287104691" duration="4570000" />
+      <workItem from="1584287104691" duration="4669000" />
+      <workItem from="1584344553121" duration="2959000" />
+      <workItem from="1584351114216" duration="2602000" />
+      <workItem from="1584354348131" duration="791000" />
+      <workItem from="1584359273789" duration="43000" />
+      <workItem from="1584359742389" duration="2422000" />
+      <workItem from="1584376094534" duration="1080000" />
+      <workItem from="1584377263350" duration="225000" />
+      <workItem from="1584379989827" duration="4876000" />
+      <workItem from="1584384906923" duration="283000" />
+      <workItem from="1584522418291" duration="344000" />
     </task>
     <task id="LOCAL−00001" summary="Komentaras">
       <created>1583861696941</created>
@@ -250,7 +270,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1584209953903</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="Code Converter">
+      <created>1584292476607</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1584292476607</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +293,8 @@
     <MESSAGE value="Nuskaityti" />
     <MESSAGE value="Irasyti" />
     <MESSAGE value="Kolekcijos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kolekcijos" />
+    <MESSAGE value="Code Converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Converter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583775952386">
@@ -282,30 +309,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1583780125840" />
-    <state x="365" y="0" key="CommitChangelistDialog2" timestamp="1584209950597">
+    <state x="365" y="0" key="CommitChangelistDialog2" timestamp="1584384285309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="365" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584209950597" />
-    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1584198472977">
+    <state x="365" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584384285309" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1584522697513">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584198472977" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584292420313">
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584522697513" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584384869680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584292420313" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584292420313">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584384869680" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584384869680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584292420313" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584292420313">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584384869680" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584384869680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584292420313" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584292420313">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584384869680" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584384869680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584292420313" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584384869680" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1583832044768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -322,14 +349,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583832044768" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1584209956100">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1584292480614">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584209956100" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584292480614" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1583831467089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583831467089" />
+    <state x="376" y="242" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584359939492">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="376" y="242" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1584359939492" />
     <state x="452" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583861964433">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -338,6 +369,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="712" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584287124785" />
+    <state x="93" y="49" key="new project wizard" timestamp="1584522760774">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="49" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584522760774" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1583857882443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
