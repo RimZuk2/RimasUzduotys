@@ -1,26 +1,44 @@
+import data.Student;
+import jbdc.JBDCConnector;
+
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JavaConnector {
     public static void main(String[] args) {
+        List<Student> students = new ArrayList<>();
 
         try {
-            //1. Sukurti connection
-            Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/kcs", "root", "");
-            //2. Statement
-            Statement statement = connection.createStatement();
-            //3. Execute statement
-            ResultSet resultSet = statement.executeQuery("select * from students");
-            while (resultSet.next()){
-                System.out.println(resultSet.getInt("id"));
-                System.out.println(resultSet.getString(2));
-                System.out.println(resultSet.getString(3));
-                System.out.println(resultSet.getString(4));
-                System.out.println(resultSet.getString("email"));
+            JBDCConnector connector = new JBDCConnector();
+            Connection connect = connector.connect();
+            if(connect == null){
+                return;
             }
 
+            //2. Statement
+            Statement statement = connect.createStatement();
+            //3. Execute statement
+            ResultSet resultSet = statement.executeQuery("select * from students");
+            while (resultSet.next()) {
+                students.add(new Student(
+                        resultSet.getInt("id"),
+                        resultSet.getString("name"),
+                        resultSet.getString("surname"),
+                        resultSet.getString("phone"),
+                        resultSet.getString("email")));
+            }
         } catch (SQLException e) {
-            System.out.println("Cannot connect to DB");
+            System.out.println("Sql exception");
             System.out.println(e.getMessage());
         }
+        students.forEach(s->{
+            System.out.println(s.getId());
+            System.out.println(s.getName());
+            System.out.println(s.getSurname());
+            System.out.println(s.getPhone());
+            System.out.println(s.getEmail());
+        });
+
     }
 }
