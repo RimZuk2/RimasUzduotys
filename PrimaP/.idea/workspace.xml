@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c639fae0-8e98-42cb-ae15-38a833426d52" name="Default Changelist" comment="Code Converter">
-      <change afterPath="$PROJECT_DIR$/../FX/FX.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/src/sample/Pirmas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/Galutinis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kcs/example/testas1/TestasVienas4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pirma_paskaita_03_09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -185,6 +178,7 @@
       <workItem from="1584379989827" duration="4876000" />
       <workItem from="1584384906923" duration="283000" />
       <workItem from="1584522418291" duration="344000" />
+      <workItem from="1584635433588" duration="1121000" />
     </task>
     <task id="LOCAL−00001" summary="Komentaras">
       <created>1583861696941</created>
@@ -369,10 +363,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="712" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584287124785" />
-    <state x="93" y="49" key="new project wizard" timestamp="1584522760774">
+    <state x="93" y="0" key="new project wizard" timestamp="1584637179861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="49" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584522760774" />
+    <state x="93" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584637179861" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1583857882443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
