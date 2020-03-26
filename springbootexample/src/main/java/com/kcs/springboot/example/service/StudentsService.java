@@ -19,16 +19,45 @@ public class StudentsService {
         this.jdbcConnector = jdbcConnector;
     }
 
-    public Student getStudents(String studentId){
+    public Student createStudent(Student student)
+    {
         Connection connection = jdbcConnector.createConnection();
-        if(connection == null){
+
+        if(connection == null)
+        {
+            return null;
+        }
+
+        try
+        {
+            PreparedStatement preparedStatement = connection.prepareStatement("insert into students(name, surname, phone, email) values(?,?,?,?)");
+            preparedStatement.setString(1, student.getName());
+            preparedStatement.setString(2, student.getSurname());
+            preparedStatement.setString(3, student.getPhone());
+            preparedStatement.setString(4, student.getEmail());
+
+            preparedStatement.execute();
+
+            return getStudents().stream().filter(s -> s.equals(student)).findFirst().orElse(null);
+
+        }
+        catch(SQLException e)
+        {
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+
+    public Student getStudents(String studentId) {
+        Connection connection = jdbcConnector.createConnection();
+        if (connection == null) {
             return null;
         }
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("select * from students where id = ?");
             preparedStatement.setInt(1, Integer.parseInt(studentId));
             ResultSet resultSet = preparedStatement.executeQuery();
-            if(resultSet.next()){
+            if (resultSet.next()) {
                 return mapStudent(resultSet);
             }
         } catch (Exception e) {
@@ -56,6 +85,7 @@ public class StudentsService {
         }
         return students;
     }
+
     private Student mapStudent(ResultSet resultSet) throws SQLException {
         return new Student(resultSet.getInt("id"),
                 resultSet.getString("name"),

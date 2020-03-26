@@ -1,5 +1,7 @@
 package com.kcs.springboot.example.data;
 
+import java.util.Objects;
+
 public class Student {
     private int id;
     private String name;
@@ -53,5 +55,21 @@ public class Student {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return name.equals(student.name) &&
+                surname.equals(student.surname) &&
+                phone.equals(student.phone) &&
+                email.equals(student.email);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, surname, phone, email);
     }
 }
