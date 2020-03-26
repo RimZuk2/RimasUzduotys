@@ -5,10 +5,7 @@ import com.kcs.springboot.example.jdbc.JDBCConnector;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -22,6 +19,24 @@ public class StudentsService {
         this.jdbcConnector = jdbcConnector;
     }
 
+    public Student getStudents(String studentId){
+        Connection connection = jdbcConnector.createConnection();
+        if(connection == null){
+            return null;
+        }
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("select * from students where id = ?");
+            preparedStatement.setInt(1, Integer.parseInt(studentId));
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if(resultSet.next()){
+                return mapStudent(resultSet);
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+
     public List<Student> getStudents() {
         List<Student> students = new ArrayList<>();
         Connection connection = jdbcConnector.createConnection();
@@ -33,16 +48,19 @@ public class StudentsService {
             ResultSet resultSet = statement.executeQuery("select * from students");
 
             while (resultSet.next()) {
-                students.add(new Student(resultSet.getInt("id"),
-                        resultSet.getString("name"),
-                        resultSet.getString("surname"),
-                        resultSet.getString("phone"),
-                        resultSet.getString("email")));
+                students.add(mapStudent(resultSet));
             }
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
         return students;
+    }
+    private Student mapStudent(ResultSet resultSet) throws SQLException {
+        return new Student(resultSet.getInt("id"),
+                resultSet.getString("name"),
+                resultSet.getString("surname"),
+                resultSet.getString("phone"),
+                resultSet.getString("email"));
     }
 }
